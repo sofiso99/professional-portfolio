@@ -1,7 +1,14 @@
-import { Code, Folder, MessageCircle, Star, User } from "lucide-react";
+import {
+  Code,
+  Download,
+  Folder,
+  MessageCircle,
+  Star,
+  User,
+} from "lucide-react";
 import Logo from "./components/Logo";
 import NavElement from "./components/NavElement";
-import DownloadResumeButton from "../components/DownloadResumeButton";
+import { Button } from "@/components/Button";
 
 const Navbar = () => {
   const NavElementsData = [
@@ -39,7 +46,12 @@ const Navbar = () => {
             />
           );
         })}
-        <DownloadResumeButton />
+        <a href="/Resume.pdf" download>
+          <Button
+            icon={<Download strokeWidth={1.75} className="w-5" />}
+            text="Resume"
+          />
+        </a>
       </div>
     </div>
   );

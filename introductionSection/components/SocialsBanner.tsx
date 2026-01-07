@@ -10,7 +10,7 @@ const SocialBanner = ({
 }) => {
   return (
     <div className="flex items-center gap-4">
-      <h2 className="text-lg font-semibold pl-15">{title}</h2>
+      <h2 className="text-lg font-semibold">{title}</h2>
       <div className="flex gap-4">
         {items.map((item) => (
           <SocialButton
