@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "id": "hobbies",
+      "icon": "Heart",
+      "title": "Hobbies",
+      "description": "Knitting, running, playing Mario Kart, exploring new technologies, contributing to open-source projects, and always learning."
+    },
+    {
+      "id": "languages",
+      "icon": "Globe",
+      "title": "Languages",
+      "description": "Fluent in Spanish and English. Currently learning French."
+    },
+    {
+      "id": "location",
+      "icon": "Map",
+      "title": "Location",
+      "description": "Based in New York, USA."
+    }
+  ]
+}
