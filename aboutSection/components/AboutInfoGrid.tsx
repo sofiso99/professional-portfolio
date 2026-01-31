@@ -3,11 +3,13 @@ import content from "../../content/aboutInfoCardsData.json";
 import AboutInfoCard from "./AboutInfoCard";
 import { JSX } from "react";
 
+const ICON_SIZE = 25;
+
 const AboutInfoGrid = () => {
   const icons: Record<string, JSX.Element> = {
-    Heart: <Heart size={25} />,
-    Globe: <Globe size={25} />,
-    Map: <MapPin size={25} />,
+    Heart: <Heart size={ICON_SIZE} />,
+    Globe: <Globe size={ICON_SIZE} />,
+    Map: <MapPin size={ICON_SIZE} />,
   };
 
   return (

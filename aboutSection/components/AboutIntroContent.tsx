@@ -4,20 +4,22 @@ import AboutIntroGrid from "./AboutInfoGrid";
 import SocialsBanner from "@/introductionSection/components/SocialsBanner";
 import { Github, Linkedin, Mail } from "lucide-react";
 
+const ICON_SIZE = 20;
+
 const AboutIntroContent = () => {
   const socialLinks = [
     {
-      icon: <Github size={20} />,
+      icon: <Github size={ICON_SIZE} />,
       href: "https://github.com/sofiso99",
       label: "GitHub",
     },
     {
-      icon: <Linkedin size={20} />,
+      icon: <Linkedin size={ICON_SIZE} />,
       href: "https://www.linkedin.com/in/sofiarodas/",
       label: "LinkedIn",
     },
     {
-      icon: <Mail size={20} />,
+      icon: <Mail size={ICON_SIZE} />,
       href: "mailto:sofrodasg@gmail.com",
       label: "Email",
     },
@@ -35,9 +37,7 @@ const AboutIntroContent = () => {
         <AboutIntroGrid />
       </div>
 
-      <div
-        className="flex gap-10 pt-10 pb-10"
-      >
+      <div className="flex gap-10 pt-10 pb-10">
         <SocialsBanner title="Find me on:" items={socialLinks} />
         <CallToAction />
       </div>
