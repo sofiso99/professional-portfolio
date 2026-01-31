@@ -5,7 +5,6 @@ import SocialsBanner from "@/introductionSection/components/SocialsBanner";
 import { Github, Linkedin, Mail } from "lucide-react";
 
 const ICON_SIZE = 20;
-const test = "test";
 
 const AboutIntroContent = () => {
   const socialLinks = [
