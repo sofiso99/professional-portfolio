@@ -1,15 +1,15 @@
 "use client";
+import AboutSection  from "@/aboutSection/AboutSection";
 import { IntroductionSection } from "@/introductionSection/IntroductionSection";
 import Navbar from "@/navbar/Navbar";
 
-import Image from "next/image";
-import { useRouter } from "next/navigation";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <IntroductionSection />
+      <AboutSection />
     </div>
   );
 }

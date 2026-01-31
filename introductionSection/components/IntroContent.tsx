@@ -5,19 +5,21 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import CallToAction from "./CallToAction";
 
 export const IntroContent = () => {
+  const ICON_SIZE = 20;
+
   const socialLinks = [
     {
-      icon: <Github size={20} />,
+      icon: <Github size={ICON_SIZE} />,
       href: "https://github.com/sofiso99",
       label: "GitHub",
     },
     {
-      icon: <Linkedin size={20} />,
+      icon: <Linkedin size={ICON_SIZE} />,
       href: "https://www.linkedin.com/in/sofiarodas/",
       label: "LinkedIn",
     },
     {
-      icon: <Mail size={20} />,
+      icon: <Mail size={ICON_SIZE} />,
       href: "mailto:sofrodasg@gmail.com",
       label: "Email",
     },
