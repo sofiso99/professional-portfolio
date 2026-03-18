@@ -1,8 +1,9 @@
 "use client";
-import AboutSection  from "@/aboutSection/AboutSection";
+import AboutSection from "@/aboutSection/AboutSection";
 import { IntroductionSection } from "@/introductionSection/IntroductionSection";
 import Navbar from "@/navbar/Navbar";
-
+import ProjectsSection from "@/projectsSection/ProjectsSection";
+import SkillsSection from "@/skillsSection/SkillsSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Navbar />
       <IntroductionSection />
       <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
     </div>
   );
 }

@@ -37,12 +37,13 @@ const Navbar = () => {
     <div className="flex justify-between items-center border-b-2 border-gray-200 py-3 px-15">
       <Logo />
       <div className="flex gap-8 items-center ">
-        {NavElementsData.map((navElement) => {
+        {NavElementsData.map((navElement, i) => {
           return (
             <NavElement
               icon={navElement.icon}
               label={navElement.label}
               anchor={navElement.anchor}
+              key={i}
             />
           );
         })}

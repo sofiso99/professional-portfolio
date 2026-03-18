@@ -3,6 +3,7 @@ import content from "../../content/aboutIntroData.json";
 import AboutIntroGrid from "./AboutInfoGrid";
 import SocialsBanner from "@/introductionSection/components/SocialsBanner";
 import { Github, Linkedin, Mail } from "lucide-react";
+import AboutIntro from "./AboutIntro";
 
 const ICON_SIZE = 20;
 
@@ -26,13 +27,11 @@ const AboutIntroContent = () => {
   ];
   return (
     <div className="flex flex-col place-items-center">
-      <div className="flex gap-3 font-bold text-[45px] pt-8">
-        <h1>{content.aboutIntroData.title}</h1>
-        <h1 className="text-[#4C5564]">{content.aboutIntroData.highlight}</h1>
-      </div>
-      <p className="font-light text-[23px] text-[#737373] py-8 px-85 text-center">
-        {content.aboutIntroData.paragraphs[0]}
-      </p>
+      <AboutIntro
+        title={content.aboutIntroData.title}
+        highlight={content.aboutIntroData.highlight}
+        paragraphs={content.aboutIntroData.paragraphs}
+      />
       <div className="font-light text-[20px] text-[#737373] text-center">
         <AboutIntroGrid />
       </div>
