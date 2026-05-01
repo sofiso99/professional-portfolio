@@ -11,7 +11,7 @@ const SkillsInfoCards = () => {
     Server: <Server size={ICON_SIZE} />,
   };
   return (
-    <div className="flex gap-2 justify-center pb-20">
+    <div className="flex gap-10 justify-center pb-20">
       {content.categories.map((category, i) => {
         return (
           <div

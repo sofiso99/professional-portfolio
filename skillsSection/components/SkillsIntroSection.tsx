@@ -3,7 +3,7 @@ import AboutIntro from "../../aboutSection/components/AboutIntro";
 import SkillsInfoCards from "./SkillsInfoCards";
 const SkillsIntroSection = () => {
   return (
-    <div>
+    <div className="flex flex-col place-items-center py-20">
       <AboutIntro
         title={content.skillsIntroData.title}
         highlight={content.skillsIntroData.highlight}

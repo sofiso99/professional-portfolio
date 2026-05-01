@@ -26,7 +26,7 @@ const AboutIntroContent = () => {
     },
   ];
   return (
-    <div className="flex flex-col place-items-center">
+    <div className="flex flex-col place-items-center py-5">
       <AboutIntro
         title={content.aboutIntroData.title}
         highlight={content.aboutIntroData.highlight}

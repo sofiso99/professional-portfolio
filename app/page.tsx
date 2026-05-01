@@ -1,5 +1,7 @@
 "use client";
 import AboutSection from "@/aboutSection/AboutSection";
+import Footer from "@/components/Footer";
+import ContactSection from "@/contactSection/ContactSection";
 import { IntroductionSection } from "@/introductionSection/IntroductionSection";
 import Navbar from "@/navbar/Navbar";
 import ProjectsSection from "@/projectsSection/ProjectsSection";
@@ -13,6 +15,8 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }

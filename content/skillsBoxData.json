@@ -7,17 +7,26 @@
         "React",
         "Next.js",
         "TypeScript",
-        "Javascript",
+        "JavaScript",
         "HTML5",
         "CSS3",
         "Tailwind CSS",
-        "Vite"
+        "Vite",
+        "Webflow",
+        "Figma"
       ]
     },
     {
       "title": "Backend Development",
       "icon": "Server",
-      "skills": ["Express.js"]
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "OpenAI API",
+        "Fetch API",
+        "Postman"
+      ]
     }
   ]
 }

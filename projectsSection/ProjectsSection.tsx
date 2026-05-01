@@ -1,14 +1,12 @@
-import AboutIntro from "@/aboutSection/components/AboutIntro";
-import content from "../content/projectsIntroData.json";
+import ProjectsIntroSection from "./components/ProjectsIntroSection";
 
 const ProjectsSection = () => {
   return (
-    <AboutIntro
-      title={content.projectsIntroData.title}
-      highlight={content.projectsIntroData.highlight}
-      paragraphs={content.projectsIntroData.paragraphs}
-    />
+    <div id="projects" className="bg-[#F9FAFB]">
+      <ProjectsIntroSection />
+    </div>
   );
 };
 
-export default ProjectsSection;
+
+export default ProjectsSection

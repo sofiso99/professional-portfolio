@@ -25,7 +25,7 @@ export const IntroContent = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-2 py-20 px-15 gap-18">
+    <div className="grid grid-cols-2 py-50 px-15 gap-18">
       <div className="flex flex-col gap-9">
         <div className="leading-9">
           <h1 className="font-bold text-[40px]">{content.introData.title}</h1>

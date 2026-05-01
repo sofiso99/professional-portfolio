@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "icon": "Mail",
+      "title": "Email",
+      "value": "sofrodasg@gmail.com",
+      "href": "mailto:sofrodasg@gmail.com"
+    },
+    {
+      "icon": "Linkedin",
+      "title": "LinkedIn",
+      "value": "linkedin.com/in/sofiarodas",
+      "href": "https://linkedin.com/in/sofiarodas"
+    },
+    {
+      "icon": "Github",
+      "title": "GitHub",
+      "value": "github.com/sofiso99",
+      "href": "https://github.com/sofiso99"
+    }
+  ]
+}
