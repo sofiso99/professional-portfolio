@@ -4,7 +4,7 @@ import SocialsBanner from "./components/SocialsBanner";
 
 export const IntroductionSection = () => {
   return (
-    <div>
+    <div id="home">
       <IntroContent />
     </div>
   );

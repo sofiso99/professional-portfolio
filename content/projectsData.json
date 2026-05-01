@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+  "id": "champagne-dupont",
+  "title": "Champagne Dupont (Freelance)",
+  "description": "Pixel perfect marketing site for a family owned champagne house in Trépail, France.",
+  "image": "/champagne-dupont.png",
+  "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Figma", "Vercel"],
+  "codeUrl": null,
+  "liveUrl": "https://www.champagne-jean-claude-dupont.com",
+  "isPrivate": true
+    },
+    {
+    "id": "otterdr",
+    "title": "OtterDr",
+    "description": "Open source VS Code extension that turns highlighted error lines into plain English explanations.",
+    "image": "/otterdr.png",
+    "tech": ["TypeScript", "VS Code API", "OpenAI API", "Node.js", "HTML/CSS"],
+    "codeUrl": "https://github.com/OtterDr/OtterDr",
+    "liveUrl": "https://www.otterdr.com",
+    "isPrivate": false
+    },
+    {
+    "id": "bond-app",
+    "title": "Bond",
+    "description": "Distance and time difference tracker for long distance couples.",
+    "image": "/bond-app.png",
+    "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "Figma", "Geolocation API"],
+    "codeUrl": "https://github.com/sofiso99/bond-app",
+    "liveUrl": "https://bondappproject.netlify.app",
+    "isPrivate": false
+    }
+  ]
+}
