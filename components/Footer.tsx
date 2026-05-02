@@ -8,14 +8,14 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="border-t-2 border-gray-200 bg-white py-6 px-15">
-      <div className="flex justify-between items-center flex-wrap gap-4">
-        <div className="flex gap-2 items-center text-sm text-gray-600">
-          <Code strokeWidth={2} size={18} />
+    <footer className="border-t-2 border-gray-200 bg-white py-6 px-15 max-lg:px-4 max-lg:py-8">
+      <div className="flex flex-wrap items-center justify-between gap-4 max-lg:flex-col max-lg:justify-center max-lg:text-center">
+        <div className="flex items-center gap-2 text-sm text-gray-600 max-lg:max-w-md max-lg:flex-col sm:max-lg:flex-row">
+          <Code strokeWidth={2} size={18} className="shrink-0" />
           <p>Built with Next.js and Tailwind CSS. © 2026 Sofia Rodas.</p>
         </div>
 
-        <div className="flex gap-4 items-center">
+        <div className="flex items-center gap-4">
           {socials.map((s) => {
             const Icon = s.icon;
             return (
@@ -25,7 +25,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={s.label}
-                className="text-gray-600 hover:text-black transition"
+                className="text-gray-600 transition hover:text-black"
               >
                 <Icon size={18} />
               </a>

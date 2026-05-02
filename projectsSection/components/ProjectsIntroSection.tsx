@@ -4,7 +4,7 @@ import ProjectsList from "./ProjectsList";
 
 const ProjectsIntroSection = () => {
   return (
-    <div>
+    <div className="max-lg:px-4">
       <AboutIntro
         title={content.projectsIntroData.title}
         highlight={content.projectsIntroData.highlight}

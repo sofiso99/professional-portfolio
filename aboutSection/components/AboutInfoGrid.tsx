@@ -13,9 +13,9 @@ const AboutInfoGrid = () => {
   };
 
   return (
-    <div className="flex flex-row gap-6 mt-10">
+    <div className="mt-10 flex flex-row gap-6 max-lg:flex-col max-lg:items-center max-lg:gap-10 max-lg:px-2">
       {content.cards.map((card) => (
-        <div key={card.id}>
+        <div key={card.id} className="max-lg:w-full max-lg:max-w-xs">
           <AboutInfoCard
             icon={icons[card.icon]}
             title={card.title}

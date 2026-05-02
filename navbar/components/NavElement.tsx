@@ -5,15 +5,18 @@ const NavElement = ({
   label,
   anchor,
   isActive,
+  onNavigate,
 }: {
   icon: ReactNode;
   label: string;
   anchor: string;
   isActive: boolean;
+  onNavigate?: () => void;
 }) => {
   return (
     <a
       href={`#${anchor}`}
+      onClick={onNavigate}
       className={`flex gap-1 items-center px-3 py-1.5 rounded-md cursor-pointer transition ${
         isActive
           ? "bg-black text-white"
