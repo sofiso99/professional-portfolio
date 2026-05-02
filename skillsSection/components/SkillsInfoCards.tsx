@@ -11,14 +11,14 @@ const SkillsInfoCards = () => {
     Server: <Server size={ICON_SIZE} />,
   };
   return (
-    <div className="flex gap-10 justify-center pb-20">
+    <div className="flex justify-center gap-10 pb-20 max-lg:flex-col max-lg:items-stretch max-lg:gap-8 max-lg:px-4 max-lg:pb-16">
       {content.categories.map((category, i) => {
         return (
           <div
-            className=" w-100 bg-white rounded-lg border-[#E7E8EB] border p-5 shadow-md "
+            className="w-100 shrink-0 rounded-lg border border-[#E7E8EB] bg-white p-5 shadow-md max-lg:w-full max-lg:max-w-xl max-lg:mx-auto"
             key={i}
           >
-            <div className="mb-5 font-extrabold text-lg flex gap-2">
+            <div className="mb-5 flex gap-2 text-lg font-extrabold">
               {icons[category.icon]}
               <p>{category.title}</p>
             </div>

@@ -5,7 +5,7 @@ import ContactCards from "./ContactCards";
 
 const ContactIntroSection = () => {
   return (
-    <div className="flex flex-col place-items-center pt-40">
+    <div className="flex flex-col place-items-center pt-40 max-lg:px-4 max-lg:pt-24">
       <AboutIntro
         title={content.contactIntroData.title}
         highlight={content.contactIntroData.highlight}

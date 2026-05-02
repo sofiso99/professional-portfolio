@@ -38,7 +38,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           ))}
         </div>
 
-        <div className="flex gap-2 mt-2">
+        <div className="mt-2 flex gap-2 max-lg:flex-wrap">
           {project.isPrivate ? (
             <span className="flex items-center gap-1.5 rounded-md border border-[#E7E8EB] bg-white px-3 py-1.5 text-sm text-gray-500">
               <Lock size={14} />

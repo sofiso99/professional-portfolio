@@ -26,17 +26,17 @@ const AboutIntroContent = () => {
     },
   ];
   return (
-    <div className="flex flex-col place-items-center py-5">
+    <div className="flex flex-col place-items-center py-5 max-lg:px-4">
       <AboutIntro
         title={content.aboutIntroData.title}
         highlight={content.aboutIntroData.highlight}
         paragraphs={content.aboutIntroData.paragraphs}
       />
-      <div className="font-light text-[20px] text-[#737373] text-center">
+      <div className="text-center text-[20px] font-light text-[#737373]">
         <AboutIntroGrid />
       </div>
 
-      <div className="flex gap-10 pt-10 pb-10">
+      <div className="flex gap-10 pt-10 pb-10 max-lg:w-full max-lg:max-w-3xl max-lg:flex-col max-lg:items-center max-lg:gap-8">
         <SocialsBanner title="Find me on:" items={socialLinks} />
         <CallToAction />
       </div>

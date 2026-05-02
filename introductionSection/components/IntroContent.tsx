@@ -25,29 +25,29 @@ export const IntroContent = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-2 py-50 px-15 gap-18">
-      <div className="flex flex-col gap-9">
-        <div className="leading-9">
-          <h1 className="font-bold text-[40px]">{content.introData.title}</h1>
-          <h2 className="font-bold text-[24px] text-[#737373]  ">
+    <div className="grid grid-cols-2 gap-18 px-15 py-50 max-lg:grid-cols-1 max-lg:items-center max-lg:gap-10 max-lg:px-4 max-lg:py-16">
+      <div className="flex flex-col gap-9 max-lg:order-2 max-lg:gap-8">
+        <div className="leading-9 max-lg:leading-tight">
+          <h1 className="text-[40px] font-bold max-lg:text-center max-lg:text-3xl sm:max-lg:text-4xl">
+            {content.introData.title}
+          </h1>
+          <h2 className="text-[24px] font-bold text-[#737373] max-lg:mt-2 max-lg:text-center max-lg:text-xl sm:max-lg:text-2xl">
             {content.introData.subtitle}
           </h2>
         </div>
-        <p className="font-light text-[24px] text-[#737373]">
+        <p className="text-[24px] font-light text-[#737373] max-lg:text-center max-lg:text-lg sm:max-lg:text-xl">
           {content.introData.description}
         </p>
         <SocialsBanner title="Find me on:" items={socialLinks} />
-        <div>
-          <CallToAction />
-        </div>
+        <CallToAction />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center max-lg:order-1">
         <Image
           src="/picture.jpg"
           alt="profile picture"
           width={350}
           height={300}
-          className="rounded-full"
+          className="rounded-full max-lg:h-auto max-lg:w-full max-lg:max-w-[280px] max-lg:object-cover sm:max-lg:max-w-[320px]"
         />
       </div>
     </div>
